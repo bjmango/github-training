@@ -17,3 +17,7 @@ test('trims leading and trailing separators', () => {
 test('rejects non-string input', () => {
   assert.throws(() => slugify(42), TypeError);
 });
+
+test('transliterates accented characters instead of stripping them', () => {
+  assert.equal(slugify('Café Münster'), 'cafe-munster');
+});
