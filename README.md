@@ -1,4 +1,4 @@
-# gh-lab
+# github-training
 
 A throwaway practice repository for learning GitHub's collaboration features.
 
